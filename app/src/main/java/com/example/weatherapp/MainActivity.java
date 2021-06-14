@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                     main = jsonPart.getString("main");
                     description = jsonPart.getString("description");
                     if (!main.equals("") && !description.equals("")) {
-                        message = message + "main:" + main  +  "\r\n" +  "description:" + description +"\r\n" + "pressure:" + pressure   +"\r\n" + "temperature:" + temperature + "\r\n"  +"max temp:" + max +"\r\n" + "min temp:" + min + "\r\n" ;
+                        message = message + "1: main:" + main  +  "\r\n" +  "2: description:" + description +"\r\n" + "3: pressure:" + pressure   +"\r\n" + "4: temperature:" + temperature + "\r\n"  +"5: max temp:" + max +"\r\n" + "6: min temp:" + min + "\r\n" ;
                     }
 
 
